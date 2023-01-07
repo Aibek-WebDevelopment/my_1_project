@@ -1,0 +1,192 @@
+.homebg {
+    background-color: #F7F7F7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.homebg .home img {
+    height: 652px;
+    background-size: cover;
+}
+
+
+/* .homebg {
+    background-attachment: fixed;
+} */
+
+.homebg .header-menu {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bungee', cursive;
+    font-weight: 600;
+    padding: 30px;
+    color: #223377;
+}
+
+.homebg .home-box {
+    padding: 50px;
+}
+
+.homebg .home-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.homebg .home-box .box-1 img {
+    width: 270px;
+    height: 200px;
+    padding: 15px;
+}
+
+.homebg .home-box .box-1 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+}
+
+.homebg .home-box .box-1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.50);
+    transition: .3s;
+}
+
+.homebg .home-box .box-2 img {
+    width: 270px;
+    height: 200px;
+    padding: 15px;
+}
+
+.homebg .home-box .box-2 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 2px solid #223377; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+}
+
+.homebg .home-box .box-2:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.50);
+    transition: .3s;
+}
+
+.homebg .home-box .box-3 img {
+    width: 270px;
+    height: 200px;
+    padding: 15px;
+}
+
+.homebg .home-box .box-3 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+}
+
+.homebg .home-box .box-3:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.50);
+    transition: .3s;
+}
+
+.homebg .home-box .box-4 img {
+    width: 270px;
+    height: 200px;
+    padding: 15px;
+}
+
+.homebg .home-box .box-4 {
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.50);
+}
+
+.homebg .home-box .box-4:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.50);
+    transition: .3s;
+}
+
+.homebg .home-box h3 {
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+}
+
+.homebg .home-box p {
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.homebg .home-box a {
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    /* width: 100px; */
+    background-color: #223377;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.homebg .home-box a:hover {
+    color: white;
+    background-color: red;
+    transition: .4s;
+}
+
+.homebg .home-box .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 731px) {
+    .home-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:990px) {
+    .head-logo i {
+        display: flex;
+    }
+    .head-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1051px) {
+    .home-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1285px) {
+    .home-box {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .homebg .home img {
+        display: none;
+    }
+}

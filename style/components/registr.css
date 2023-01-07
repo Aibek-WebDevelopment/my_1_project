@@ -1,0 +1,183 @@
+.registr {
+    background-color: #213275;
+    width: 100%;
+    height: 653px;
+}
+
+.registr .registr-bd {
+    max-width: 1200px;
+    background-color: aliceblue;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.registr .registr-bd h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Bungee', cursive;
+    color: #213275;
+    padding: 20px;
+}
+
+.registr .registr-bd .input {
+    padding-top: 20px;
+}
+
+.registr .registr-bd .input input {
+    width: 390px;
+    height: 30px;
+    padding: 5px 50px;
+    margin: 10px 50px;
+    text-align: start;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Bungee', cursive;
+}
+
+.registr .registr-bd .input a {
+    width: 445px;
+    height: 20px;
+    padding: 25px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: red;
+    text-decoration: none;
+    font-family: 'Bungee', cursive;
+    margin-bottom: 20px;
+}
+
+.registr .registr-bd .input a:hover {
+    /* background-color: white; */
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+    background-color: #213275;
+}
+
+
+/* ============================== */
+
+@media(max-width:600px) {
+    .registr .registr-bd .input input {
+        width: 350px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:600px) {
+    .registr .registr-bd .input a {
+        width: 400px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:556px) {
+    .registr .registr-bd .input input {
+        width: 300px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:500px) {
+    .registr .registr-bd .input input {
+        width: 250px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:556px) {
+    .registr .registr-bd .input a {
+        width: 350px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:500px) {
+    .registr .registr-bd .input a {
+        width: 300px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:444px) {
+    .registr .registr-bd .input input {
+        width: 200px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:444px) {
+    .registr .registr-bd .input a {
+        width: 260px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:1208px) {
+    .registr .box .registr-bd .input input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:1208px) {
+    .registr .registr-bd {
+        height: auto;
+    }
+}
+
+@media(max-width:380px) {
+    .registr .registr-bd .input input {
+        width: 150px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+}
+
+@media(max-width:380px) {
+    .registr .registr-bd .input a {
+        width: 200px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

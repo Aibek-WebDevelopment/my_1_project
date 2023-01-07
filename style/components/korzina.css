@@ -1,0 +1,74 @@
+.korzina {
+    background-color: #213275;
+    width: 100%;
+    height: 653px;
+}
+
+.korzina .tovar {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.korzina .bosxe {
+    width: 300px;
+    height: 400px;
+    background-color: #213275;
+    margin: 15px;
+    border-radius: 10px;
+    /* position: absolute; */
+}
+
+.korzina .bosxe img {
+    width: 280px;
+    padding: 10px;
+}
+
+.korzina .tovar .right {
+    text-align: center;
+}
+
+.korzina .tovar .right .texthd {
+    color: white;
+    line-height: 1.5;
+}
+
+.korzina .tovar .kupit .zakaz {
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #213275;
+    font-family: 'Bungee', cursive;
+    color: white;
+}
+
+.korzina .tovar .kupit .zakaz:hover {
+    background-color: red;
+    transition: .3s;
+}
+
+.korzina .tovar .right .kupit a {
+    color: #213275;
+    text-decoration: none;
+}
+
+.korzina .tovar .right .kupit:hover {
+    background-color: red;
+    transition: .3s;
+}
+
+@media(max-width:1000px) {
+    .korzina .tovar {
+        flex-wrap: wrap;
+    }
+}
